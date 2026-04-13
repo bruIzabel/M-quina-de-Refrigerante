@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="machine_style.css">
+
+</head>
+
+<body>
+   <nav class="nav">
+        <div class="nav-logo">
+            <img src="https://i.pinimg.com/originals/9b/76/51/9b76517c5b7dff1ebdb3af3428057159.gif" alt="Navbar GIF">
+            <div class="Textonavbar">Compre seu refrigerante aqui!</div>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="maquina">
+            <div class="moedas">
+                <div id="moeda_25c" class="item">25C</div>
+                <div id="moeda_50c" class="item">50C</div>
+                <div id="moeda_1real" class="item">1R</div>
+            </div>
+
+            <div class="inserir">
+                <button class="opcoes" onclick="abrirPopup()">Escolha Aqui</button>
+                <div class="inserir_moeda">
+                    <div class="texto_insercao">
+                        <span>Insira</span>
+                        <span>sua</span>
+                        <span>moeda</span>
+                    </div>
+                </div>
+                <img src="setinha.svg" alt="local onde inserir" class="seta">
+                <div class="botao_de_inserir">
+                    <div class="retangulo"></div>
+                </div>
+                 <div class="visor">
+                    <div class="visor_interno"></div>
+                </div>
+            </div> 
+            <dialog id="modalOpcoes" class="modalOpcoes">
+                <div class="modal-estilo">
+                    <div class="titulo">BEBIDAS</div>
+                    <div class="pedidos">
+                        <div class="grid-container">
+                            </div>
+                    </div>
+                    <button class="fechar" onclick="fecharPopup()">Voltar</button>
+                </div>
+            </dialog>
+    </main>
+    <footer>
+    </footer>
+    <script src="machine_refri.js"></script>
+</body>
+</html>
