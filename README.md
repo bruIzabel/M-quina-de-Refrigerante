@@ -3,7 +3,10 @@
 Projeto de uma máquina de refrigerante feito com HTML, CSS e JavaScript.
 
 ## 👩‍💻 Autor
-Bruna Izabel da Silva Pereira
+
+Desenvolvido por **Bruna Izabel** 💜  
+
+🔗 GitHub: [bruIzabel](https://github.com/bruIzabel)
 
 ## 🚀 Funcionalidades
 - Escolher bebida
